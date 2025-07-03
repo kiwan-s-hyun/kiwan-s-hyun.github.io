@@ -1690,6 +1690,6 @@ input, select, textarea {
 }
 
 .cv-position h5 {
-	margin: 0;
+	margin: 0.5rem;
 	font-style: italic;
 }
