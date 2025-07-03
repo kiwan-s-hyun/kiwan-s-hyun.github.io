@@ -1659,3 +1659,29 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* CV Entry */
+.cv-entry {
+  margin-bottom: 2rem;
+}
+
+.cv-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.cv-top h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.cv-right h6 {
+  font-size: 0.85rem;
+  font-weight: 300;
+  text-align: right;
+  margin: 0;
+  line-height: 1.4;
+}
