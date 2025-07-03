@@ -1672,16 +1672,20 @@ input, select, textarea {
   flex-wrap: wrap;
 }
 
-.cv-top h4 {
-  font-size: 1.25rem;
-  font-weight: 600;
-  margin: 0;
+.cv-left {
+  flex: 1;
+  text-align: left;
 }
 
-.cv-right h6 {
-  font-size: 0.85rem;
-  font-weight: 300;
+.cv-right {
   text-align: right;
+}
+
+.cv-right h6, .cv-left h4 {
   margin: 0;
-  line-height: 1.4;
+  line-height: 1.5;
+}
+
+.cv-entry h5 {
+  margin-top: 0.5rem;
 }
