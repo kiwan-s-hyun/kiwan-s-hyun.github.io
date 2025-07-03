@@ -1375,42 +1375,6 @@ input, select, textarea {
 					#header nav ul li a:active {
 						background-color: rgba(255, 255, 255, 0.175);
 					}
-				/* Dropdown structure */
-				#header nav ul li.dropdown {
-				  position: relative;
-				}
-				
-				#header nav ul li .dropdown-menu {
-				  display: none;
-				  position: absolute;
-				  top: 100%;
-				  left: 0;
-				  background: rgba(255, 255, 255, 0.175);
-				  padding: 0;
-				  margin: 0;
-				  list-style: none;
-				  border: 1px solid #fff;
-				  border-radius: 0.25rem;
-				  z-index: 10;
-				  min-width: 12rem;
-				  text-align: left;
-				}
-				
-				#header nav ul li .dropdown-menu li a {
-				  display: block;
-				  padding: 0.5rem 1rem;
-				  color: #fff;
-				  white-space: nowrap;
-				  background: rgba(0, 0, 0, 0.7);
-				}
-				
-				#header nav ul li .dropdown-menu li a:hover {
-				  background: rgba(255, 255, 255, 0.175);
-				}
-				
-				#header nav ul li.dropdown:hover .dropdown-menu {
-				  display: block;
-				}
 
 		#header nav.use-middle:after {
 			content: '';
