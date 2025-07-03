@@ -1340,26 +1340,32 @@ input, select, textarea {
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
+			flex-wrap: wrap;
+  			justify-content: center;
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
 			border: solid 1px #ffffff;
 			border-radius: 4px;
+			width: 100%;
 		}
 
 			#header nav ul li {
+				flex: 1 1 16.66%; 
+ 			 	text-align: center;
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
 			}
 
 				#header nav ul li:first-child {
-					border-left: 0;
+					border-left: none;
 				}
 
 				#header nav ul li a {
 					display: block;
+					width: 100%;
 					min-width: 7.5rem;
-					height: 2.75rem;
+					height: auto;
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
